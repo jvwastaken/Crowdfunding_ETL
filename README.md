@@ -10,3 +10,6 @@
 -[QuickDBD](https://www.quickdatabasediagrams.com/) was used to create the [ERD](Resources/ERD_sketch.png).
 
 -XPert Learning Assistant was used to review and double check our code as needed.
+
+>[!NOTE]
+>In the [Main File](ETL_Mini_Project_SWeeks_JViloria.ipynb), we used Option 2: Using regex in order to create the contacts dataframe.
