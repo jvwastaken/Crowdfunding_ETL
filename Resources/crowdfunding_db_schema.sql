@@ -30,7 +30,10 @@ CREATE TABLE campaign(
 	launched_date date,
 	end_date date,
 	category_id varchar(4),
-	subcategory_id varchar(8)
+	subcategory_id varchar(8),
+	foreign key (contact_id) references contacts(contact_id),
+	foreign key (subcategory_id) references subcategory(subcategory_id),
+	foreign key (category_id) references category(category_id)
 );
 
 select * from campaign;
